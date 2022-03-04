@@ -5,4 +5,4 @@
 -
 
 - DEMO
-<img src="../demo/demo-goldfish-layout-day.png"></img>
+<img src="../demo/demo-goldfish-layout-day.png" width="1440px"/>

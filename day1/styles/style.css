@@ -3,7 +3,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Gideon Roman", cursive;
 }
 
 .banner {
@@ -15,8 +14,8 @@
 
 .banner .container {
   width: 1440px;
-  margin: auto;
   height: 100%;
+  padding: 30px;
 }
 
 .banner .container .container-text {
@@ -38,10 +37,10 @@
 }
 
 .banner .container .container-text h1 {
-  font-weight: 1500;
-  font-size: 3.5rem;
+  font-weight: 600;
+  font-size: 6rem;
   border-bottom: 1px solid #000;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
 .banner .container .container-text h1 small {
@@ -52,5 +51,9 @@
 .banner .container .container-text h2 {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.banner .container .container-text p {
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */
