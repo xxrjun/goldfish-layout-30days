@@ -5,3 +5,5 @@
 - 使用定位之後，元素會自動轉型成 block
 - [Drawing a triangle with CSS](https://alvaromontoro.com/blog/67970/drawing-a-triangle-with-css)
 - 小工具 [CSS triangle generator](http://apps.eky.hk/css-triangle-generator/)
+- DEMO
+  <img src="../demo/demo-goldfish-layout-day3.gif"></img>

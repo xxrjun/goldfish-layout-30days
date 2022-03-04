@@ -1,4 +1,0 @@
-# Day
-
-### Learned
-

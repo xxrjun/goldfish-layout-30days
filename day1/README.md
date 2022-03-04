@@ -8,3 +8,6 @@
       100% 100%,
     url("../img.JPG") right center / auto 100%;
     ```
+
+- DEMO
+<img src="../demo/demo-goldfish-layout-day1.png"></img>
