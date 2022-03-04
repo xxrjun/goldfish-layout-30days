@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gideon Roman", cursive;
+}
+
+.banner {
+  background: #000;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg, rgb(255, 148, 77) 50%, transparent 70%)
+      center center / 100% 100%,
+    url("../img.JPG") right center / auto 100%;
+
+  .container {
+    width: 1440px;
+    margin: auto;
+    height: 100%;
+    .container-text {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 1.5rem;
+      h1 {
+        font-weight: 1500;
+        font-size: 3.5rem;
+        border-bottom: 1px solid #000;
+        margin-bottom: 1rem;
+        small {
+          display: block;
+          font-size: 2rem;
+        }
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

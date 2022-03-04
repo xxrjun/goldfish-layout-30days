@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #000;
+}
+
+.wrap .item {
+  border-radius: 3% 3% 0 0;
+  width: 400px;
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background: white;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.wrap .item img {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  border-radius: 3%;
+  width: 100%;
+}
+
+.wrap .item .item-txt {
+  position: relative;
+  padding: 20px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.wrap .item .item-txt h2 {
+  font-size: 3rem;
+  border-bottom: 1px solid #000;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+.wrap .item .item-txt p {
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+.wrap .item .item-txt:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-right: 200px solid white;
+  border-left: 200px solid white;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.wrap .item:hover {
+  -webkit-transform: translateY(-60px);
+          transform: translateY(-60px);
+  z-index: 2;
+}
+
+.wrap .item:hover .item-txt {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fb8076), to(#feb85d));
+  background: linear-gradient(0deg, #fb8076, #feb85d);
+  color: white;
+}
+
+.wrap .item:hover .item-txt h2 {
+  border-bottom: 1px solid white;
+}
+
+.wrap .item:hover .item-txt:before {
+  border-right: 200px solid #feb85d;
+  border-left: 200px solid #feb85d;
+}
+/*# sourceMappingURL=style.css.map */

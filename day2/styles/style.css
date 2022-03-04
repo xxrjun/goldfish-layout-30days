@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrap .item {
+  width: 25%;
+  height: 400px;
+  position: relative;
+}
+
+.wrap .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrap .item .txt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.wrap .item .txt h2 {
+  font-weight: 1000;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+}
+
+.wrap .item .txt h2:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  margin: 10px 0;
+  background-color: #ff0;
+  -webkit-transition: width 0.5s 0.2s;
+  transition: width 0.5s 0.2s;
+}
+
+.wrap .item .txt p {
+  font-size: 1.5rem;
+}
+
+.wrap .item:hover .txt {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wrap .item:hover .txt h2:after {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
