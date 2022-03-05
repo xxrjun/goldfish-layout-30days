@@ -4,4 +4,115 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+.main-footer {
+  width: 100vw;
+  background: linear-gradient(-20deg, #3f5494, #08c7a5);
+}
+
+.main-footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-footer .container .footer-item {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+.main-footer .container .footer-item h4 {
+  font-size: 24px;
+  color: white;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.main-footer .container .footer-item nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-footer .container .footer-item nav a {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.main-footer .container .footer-item nav a:hover {
+  color: #fa0;
+}
+
+.main-footer .container .footer-subs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-footer .container .footer-subs form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto 0;
+}
+
+.main-footer .container .footer-subs form input[type="text"],
+.main-footer .container .footer-subs form input[type="submit"] {
+  border: none;
+  padding: 5px 10px;
+}
+
+.main-footer .container .footer-subs form input[type="submit"] {
+  color: rgba(111, 246, 223, 0.9);
+  background-color: #3e5293;
+  font-size: 1.25rem;
+}
+
+.main-footer .container .footer-subs form input[type="submit"]:hover {
+  color: #fa0;
+}
+
+.main-footer .container .footer-subs form input[type="text"] {
+  width: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-size: 1.25rem;
+}
+
+.main-footer .container .footer-subs form input[type="text"]:focus {
+  outline: none;
+}
+
+.main-footer .copyright {
+  text-align: center;
+  background: #43517e;
+  color: #42fdded0;
+}
 /*# sourceMappingURL=style.css.map */
