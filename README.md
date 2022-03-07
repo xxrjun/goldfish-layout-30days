@@ -46,7 +46,7 @@
 #### Day6 網頁頁尾版塊
 
 - input selector
-  ```
+  ```css
     input[type="text"],
     input [type="submit"] {
       border: none;
@@ -54,7 +54,7 @@
     }
   ```
 - 滿版
-  ```
+  ```css
     input[type="text"] {
       width: 0;
       flex-grow: 1;
