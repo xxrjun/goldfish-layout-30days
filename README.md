@@ -17,7 +17,7 @@
     url("../img.JPG") right center / auto 100%;
     ```
 - DEMO
-  <img src="./demo/demo-goldfish-layout-day1.png" alt="demo-goldfish-layout-day1" width="1440px"/>
+  <img src="./demo/demo-goldfish-layout-day1.png" alt="demo-goldfish-layout-day1" width="1280px"/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -26,7 +26,7 @@
 - 子層 absolute position 不代表父層要 relative postion
 - 習慣父層被摸到，子層做事情。
 - DEMO
-  <img src="./demo/demo-goldfish-layout-day2.gif" alt="demo-goldfish-layout-day2" width="1440px"/>
+  <img src="./demo/demo-goldfish-layout-day2.gif" alt="demo-goldfish-layout-day2" width="1280px"/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -43,14 +43,14 @@
 - vertical-align
 - [hex-rgba-converter](https://marketplace.visualstudio.com/items?itemName=medzhidov.)
 - DEMO  
-  <img src="./demo/demo-goldfish-layout-day4.gif" alt="demo-goldfish-layout-day4" width="1440px"/>
+  <img src="./demo/demo-goldfish-layout-day4.gif" alt="demo-goldfish-layout-day4" width="1280px"/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 #### Day5 超通用橫式版面
 
 - DEMO
-  <img src="./demo/demo-goldfish-layout-day5.png" alt="demo-goldfish-layout-day5" width="1440px"/>
+  <img src="./demo/demo-goldfish-layout-day5.png" alt="demo-goldfish-layout-day5" width="1280px"/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -73,7 +73,7 @@
   ```
 
 - DEMO
-  <img src="./demo/demo-goldfish-layout-day6.png" width="1440px"/>
+  <img src="./demo/demo-goldfish-layout-day6.png" width="1280px"/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -116,6 +116,24 @@
   ```
 
 - DEMO
-  <img src="./demo/demo-goldfish-layout-day7.gif" width="1440px"/>
+  <img src="./demo/demo-goldfish-layout-day7.gif" width="1280px"/>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+#### Day8 變化你的導覽列
+
+**8-1**
+- 把 container flex-direction 設為 column
+  ```scss
+     flex-direction: column;
+  ```
+- DEMO
+  <img src="./demo/demo-goldfish-layout-day8-1.png" width="1280px"/>
+
+**8-2**
+- 不考慮 RWD，container 設定 justify-content，將 logo 設為絕對定位脫離 normal-flow。logo 會往上層找
+- 把 main-nav 中間兩個 a tag 增加 margin 以騰出空白 (並不是很專業的寫法，不過還夠用)
+- DEMO
+  <img src="./demo/demo-goldfish-layout-day8-2.png" width="1280px"/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

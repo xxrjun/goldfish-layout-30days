@@ -17,22 +17,31 @@ a {
     display: flex;
     padding: 20px;
     align-items: center;
-    vertical-align: middle;
+    height: 100px;
+    justify-content: center;
     .logo {
+      position: absolute;
       img {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
       }
     }
     .main-nav {
       display: flex;
-      margin: auto;
+      align-items: center;
       a {
+        text-align: center;
+        width: 200px;
         font-size: 1.5rem;
         margin: 0px 30px;
         position: relative;
         transition: 0.3s;
-
+        &:nth-child(2) {
+          margin-right: 100px;
+        }
+        &:nth-child(3) {
+          margin-left: 100px;
+        }
         &:after {
           content: "";
           position: absolute;
@@ -51,27 +60,6 @@ a {
             right: 0;
           }
         }
-      }
-    }
-
-    .header-search {
-      display: flex;
-      input {
-        border-radius: 15px 0 0 15px;
-        border: none;
-        font-size: 1rem;
-        padding: 4px 12px;
-
-        &:focus {
-          outline: none;
-        }
-      }
-      button {
-        border-radius: 0 15px 15px 0;
-        padding: 4px;
-        border: none;
-        height: 30px;
-        width: 34px;
       }
     }
   }

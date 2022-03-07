@@ -15,13 +15,14 @@ a {
     max-width: 1440px;
     margin: auto;
     display: flex;
+    flex-direction: column;
     padding: 20px;
     align-items: center;
     vertical-align: middle;
     .logo {
       img {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
       }
     }
     .main-nav {
@@ -51,27 +52,6 @@ a {
             right: 0;
           }
         }
-      }
-    }
-
-    .header-search {
-      display: flex;
-      input {
-        border-radius: 15px 0 0 15px;
-        border: none;
-        font-size: 1rem;
-        padding: 4px 12px;
-
-        &:focus {
-          outline: none;
-        }
-      }
-      button {
-        border-radius: 0 15px 15px 0;
-        padding: 4px;
-        border: none;
-        height: 30px;
-        width: 34px;
       }
     }
   }
